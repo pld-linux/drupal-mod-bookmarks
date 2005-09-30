@@ -15,8 +15,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_drupaldir	%{_datadir}/drupal
 %define		_moddir		%{_drupaldir}/modules
 %define		_htdocs		%{_drupaldir}/htdocs
-%define		_htmlmoddir	%{_htdocs}/modules/%{modname}
 %define		_podir		%{_drupaldir}/po/%{modname}
+%define		_htmlmoddir	%{_htdocs}/modules/%{modname}
 
 %description
 Gives users with the 'access bookmark' permission their own private
