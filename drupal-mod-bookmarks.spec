@@ -1,5 +1,6 @@
 %define		modname bookmarks
 Summary:	Drupal Bookmarks Module
+Summary(pl):	Modu³ zak³adek dla Drupala
 Name:		drupal-mod-%{modname}
 Version:	4.6.0
 Release:	0.2
@@ -23,6 +24,12 @@ Gives users with the 'access bookmark' permission their own private
 bookmark block, allowing them to add any URL to the list. There is
 also a quicklink feature that makes it a breeze to add the currently
 viewed page to your site.
+
+%description -l pl
+Ten modu³ daje u¿ytkownikom z uprawnieniem "dostêp do zak³adek" ich
+w³asny blok zak³adek, pozwalaj±cy im dodawaæ dowolne URL-e do listy.
+Jest tak¿e w³a¶ciwo¶æ "szybkich odno¶ników" umo¿liwiaj±ca szybkie
+dodanie aktualnie ogl±daniej strony do w³asnego serwisu.
 
 %prep
 %setup -q -n %{modname}
